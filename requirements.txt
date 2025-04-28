@@ -1,0 +1,33 @@
+# Fichier requirements.txt pour Echo Assistant
+
+# Framework Web
+Flask>=2.0
+
+# Utilitaires & API
+requests>=2.25
+python-dotenv>=0.19
+deep-translator>=1.5 # Ou googletrans==4.0.0-rc1 si vous préférez
+# googletrans==4.0.0-rc1 # Décommentez si vous utilisez googletrans
+
+# Contrôle Système & UI
+pyautogui>=0.9.50
+psutil>=5.8
+screen-brightness-control>=0.10 # Contrôle luminosité
+# Dépendances spécifiques OS pour contrôle audio/COM:
+pycaw>=20181214; platform_system=='Windows'
+comtypes>=1.1.10; platform_system=='Windows'
+pywin32>=300; platform_system=='Windows' # Fournit pythoncom
+
+# Chatbot (Optionnel mais inclus dans le code)
+ChatterBot>=1.0.5 # Vérifiez la dernière version stable compatible
+chatterbot_corpus>=1.2.0
+
+# OCR (Nécessite installation Tesseract OCR externe)
+Pillow>=8.4 # Pour traitement image
+pytesseract>=0.3.8
+
+# WolframAlpha (Optionnel mais inclus)
+wolframalpha>=5.0
+
+# Autres dépendances possibles (selon vos imports exacts)
+# (Ajoutez ici si d'autres bibliothèques sont utilisées directement)

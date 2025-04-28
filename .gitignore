@@ -1,0 +1,58 @@
+# Fichier .gitignore pour projet Python/Flask
+
+# Environnements virtuels
+venv/
+env/
+*.venv/
+.venv/
+
+# Fichiers Python compilés et caches
+*.py[cod]
+*$py.class
+__pycache__/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Fichiers de configuration et secrets
+.env
+*.env
+secrets.yaml
+config.local.py
+
+# Bases de données SQLite (si non versionnées)
+*.sqlite
+*.sqlite3
+# Décommentez si db.sqlite3 de ChatterBot ne doit pas être versionné
+# modules/db.sqlite3
+
+# Fichiers d'index (peuvent devenir très gros)
+file_index.json
+
+# Fichiers générés (captures d'écran, etc.)
+Echo_Screenshots/
+
+# Fichiers spécifiques aux IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers spécifiques aux OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Dépendances téléchargées (si non gérées par venv)
+# deps/
+
+# Fichiers Coverage
+.coverage
+coverage.xml
