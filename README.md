@@ -277,3 +277,4 @@ Ce projet est distribué sous la Licence MIT. Voir le fichier [`LICENSE`](LICENS
 *   *(Ajoutez d'autres remerciements si nécessaire)*"# Assistant_Virtuelle" 
 "# Assistant_Virtuelle" 
 "# Assistant_Virtuel" 
+"# Assistant_Virtuel" 
