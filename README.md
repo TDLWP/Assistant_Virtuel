@@ -274,4 +274,5 @@ Ce projet est distribué sous la Licence MIT. Voir le fichier [`LICENSE`](LICENS
 
 *   Aux développeurs de Flask et de toutes les bibliothèques Python utilisées.
 *   À la communauté open-source pour l'inspiration et les outils.
-*   *(Ajoutez d'autres remerciements si nécessaire)*
+*   *(Ajoutez d'autres remerciements si nécessaire)*"# Assistant_Virtuelle" 
+"# Assistant_Virtuelle" 
